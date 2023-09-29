@@ -1,0 +1,244 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+body{
+    background-color: gainsboro ;
+    color: rgb(0, 0, 0);
+}
+
+#container{
+    width: 100%;
+    display: table;
+    height: 100%;
+}
+
+#encabezado{
+    text-align: center;
+    line-height: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-size: 100% 100%;
+}
+
+#encabezado h1{
+    text-align: center;
+    font-size: 50px;
+    padding-top: 50px;
+    font-size: 50px;
+    color: black;
+}
+
+#pie{
+    display: table;
+    width: 100%;
+    height: 100%;
+    background-color:#474747e8;
+    color: black;
+    text-align: center;
+    padding-top: 2%;
+}
+
+#nav ol{
+    list-style: none;
+    
+}
+
+#nav ol li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    display: flex;
+    padding: 15px 20px 15px 20px;
+    border: 1px solid rgb(29, 13, 13);
+    border-radius: 10px;
+    font-weight: bold;
+    float: left;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 225px;
+    background-color: antiquewhite;
+
+
+}
+
+#nav ol li a:hover{
+    color: rgb(rgb(220, 235, 91), rgb(171, 225, 11), rgb(175, 165, 71));
+    background-color: #181818e8;
+}
+
+#cuerpo{
+    text-align: center;
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+.titulo{
+    color: rgb(0, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 6%;
+    margin-left: 3%;
+}
+.titulo1{
+    color: rgb(0, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 6%;
+    margin-left: 3%;
+}
+
+.subtitulo1{
+    color: rgb(0, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    margin-right: 2%;
+    margin-left: 6%;
+    display: flex;
+    background-color:rgb(255, 254, 254);
+    border-radius: 8px;
+text-align: center;
+padding-left: 2% ;
+}
+
+.subtitulo2{
+    color: rgb(0, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 2%;
+    margin: 2%;
+}
+
+
+
+.parrafo{
+    text-align: left;
+    color: rgb(3, 2, 2);
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin: 2%;
+    display: flex;
+     background-color:rgb(255, 254, 254);
+    border-radius: 8px;
+
+}
+
+.diles{
+  width: 200px;
+  height: 200px;
+  float: left;
+  margin-left: 4%;
+  margin-top: 4%;
+  margin-bottom: 4%;
+  margin-right: 4%;
+  border: rgb(72, 65, 78) 2px solid;
+  border-radius: 15%;
+}
+.diles1{
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-left: 5%;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    margin-right: 5%;
+    border: rgb(72, 65, 78) 2px solid;
+    border-radius: 15%;
+  }
+
+.active{
+  color: rgb(248, 247, 245);
+  background-color: rgb(110, 86, 86);
+ opacity: 86%;
+}
+
+.iconos{
+  width: 100%;
+  height: 100%;
+  border-radius: 15%;
+}
+.form-register {
+    width: 400px;
+    background: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+  }
+  
+  .form-register h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  
+  .controls {
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+  }
+  
+  .form-register p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+  }
+  
+  .form-register a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .form-register a:hover {
+    color: white;
+    text-decoration: underline;
+  }
+  
+  .form-register .botons {
+    width: 100%;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+    
+  }
+  .botons:hover {
+    width: 100%;
+    background: #3e3f41;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+    
+  }
+  .botons:active {
+    width: 100%;
+    background: #adc0e9;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+    
+  }
+  .botons:visited {
+    width: 100%;
+    background: #000000;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+    
+  }
